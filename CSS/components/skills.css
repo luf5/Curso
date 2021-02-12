@@ -1,0 +1,59 @@
+.skills {
+    background-color: #167FE1;
+    border-bottom: 10px solid #3A4042;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+.title {
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill-tec {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    justify-content: center;
+}
+
+.skill-box {
+    display: inherit;
+    margin-right: 250px;
+    margin-top: 40px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-h3 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 25px;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+.progress-bar {
+    color: #270E8E;
+    border: 5px solid #000;
+    background-color: #fff;
+    height: 40px;
+    width: 320px;
+    margin-left: 25px;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+.progress-bar::-moz-progress-bar, .progress-bar::-webkit-progress-bar  {
+    background-color: #270E8E;
+}

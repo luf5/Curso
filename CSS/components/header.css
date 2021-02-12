@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+    width: 1440;
+    height: 80;
+}
+
+.header-title {
+    color: #fff;
+    font-size: 40px;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    line-height: 40px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-shadow: 4px 4px 2px #394CFA;
+}
+
+.header-nav {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    line-height: 60px;
+    text-decoration: none;
+    margin-right: 30px; 
+}
+
+a::before /*pseudo elemento (after)(before)*/ {
+    content: "";
+    background-color: #394CFA;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
